@@ -27,3 +27,9 @@
 * 13 - criar pasta dentro de src: database > migrations e arquivo index.js
 
 * 14 - configurar server.
+
+* 15 - criar migration sequelize: yarn sequelize migration:create --name=create-users
+
+* 16 - migrate do sequelize: yarn sequelize db:migrate
+
+* 17 - desfazer migrate:: yarn sequelize db:migrate:undo (all)

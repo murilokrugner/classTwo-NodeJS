@@ -6,11 +6,6 @@ import routes from './routes';
 
 import './database';
 
-// importando arquivo de rotas
-import routes from './routes';
-
-import './database';
-
 // criando uma classe para configuração do servidor
 class App {
   constructor() {
